@@ -6,3 +6,10 @@ let temperature: number = -5;
 
 console.log(age + 5);
 console.log(price * 2);
+
+function add(a: number, b: number): number {
+    return a + b;
+}
+
+const result = add(5, 10);
+console.log(result);
