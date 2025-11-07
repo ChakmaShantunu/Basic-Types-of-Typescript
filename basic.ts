@@ -4,6 +4,16 @@ let price: number = 99.99;
 price = 100;
 let temperature: number = -5;
 
+if (age >= 18) {
+    console.log("You are an adult");
+} else {
+    console.log("You are a minor");
+}
+
+if (temperature < 0) {
+    console.log("It's freezing cold");
+}
+
 console.log(age + 5);
 console.log(price * 2);
 
