@@ -23,3 +23,10 @@ function add(a: number, b: number): number {
 
 const result = add(5, 10);
 console.log(result);
+
+let scores: number[] = [90, 85, 78, 95];
+const total = scores.reduce((acc, current) => {
+    return acc + current
+}, 0);
+console.log(total);
+console.log("Average:", total / scores.length);
